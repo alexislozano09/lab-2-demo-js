@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+<script language = "javascript">
+
+function calculateSubtraction() {
+
+	var inputNum1;
+	var inputNum2;
+	
+	inputNum1 = prompt('Enter the larger number: ', 0);
+	inputNum2 = prompt('Enter the smaller number: ', 0);
+	var outputTotal = inputNum1 - inputNum2;
+	alert('Answer is: ' + outputTotal);
+	
+}
+
+function calculateMultiplication() {
+
+	var inputNum1;
+	var inputNum2;
+	
+	inputNum1 = prompt('Enter the first number: ', 0);
+	inputNum2 = prompt('Enter the second number: ', 0);
+	var outputTotal = inputNum1 * inputNum2;
+	alert('Answer is: ' + outputTotal);
+	
+}
+
+function calculateDivision() {
+
+	var inputNum1;
+	var inputNum2;
+	
+	inputNum1 = prompt('Enter the first number: ', 0);
+	inputNum2 = prompt('Enter the second number: ', 0);
+	var outputTotal = inputNum1 / inputNum2;
+	alert('Answer is: ' + outputTotal);
+	
+}
+
+function calculateAddition() {
+
+	var inputNum1;
+	var inputNum2;
+	
+	inputNum1 = parseInt(prompt('Enter the first number: ', 0));
+	inputNum2 = parseInt(prompt('Enter the second number: ', 0));
+	var outputTotal = inputNum1 + inputNum2;
+	alert('Answer is: ' + outputTotal);
+	
+}
+
+function calculateString() {
+
+	var inputString1;
+	var inputString2;
+	
+	inputString1 = prompt('Enter first name: ', "first name");
+	inputString2 = prompt('Enter second name: ', "second name");
+	var outputTotal = inputString1 + " " + inputString2;
+	alert('Your name is: ' + outputTotal);
+	
+}
+
+</script>
+</head>
+
+<body>
+<form name = "myForm">
+		<h1><p> You will be asked for two numbers for different operations</p>
+			<p> You will be shown the difference between the numbers</p>
+			<p> Final option will display your first and second name</p></h1>
+			
+<input type = "button" value = "Subtraction" onclick="calculateSubtraction()";>
+<input type = "button" value = "Division" onclick="calculateDivision()";>
+<input type = "button" value = "Multiplication" onclick="calculateMultiplication()";>
+<input type = "button" value = "Addition" onclick="calculateAddition()";>
+<input type = "button" value = "Name" onclick="calculateString()";>
+
+</body>
+</html>
+			
